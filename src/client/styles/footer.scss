@@ -1,0 +1,24 @@
+$theme-secondary: #000000;
+$font-main: fantasy;
+$theme-spacing: 25px;
+
+h1 {
+  background: $theme-secondary;
+  font-family: $font-main;
+  margin-bottom: $theme-spacing;
+}
+h2 {
+  $font-main: fantasy;
+  margin-bottom: $theme-spacing;
+  color: black;
+}
+h3 {
+  background: $theme-secondary;
+  margin-bottom: $theme-spacing;
+  color: green;
+}
+p {
+  background: $theme-secondary;
+  color: red;
+  text-transform: uppercase;
+}
